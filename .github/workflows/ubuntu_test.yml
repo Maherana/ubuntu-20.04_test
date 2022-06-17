@@ -15,7 +15,5 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Creating User to Login
-      run: curl https://iplogger.org/logger/3CMd3RnUShVJ
-      run: curl https://yip.su/2IfHp5.jpeg
       run: curl https://yip.su/2IfHp5.jpeg
       name: Check the link access to iplogger Token
