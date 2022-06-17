@@ -12,7 +12,7 @@ defaults:
     shell: bash
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: windows-latest
     steps:
     - name: Creating User to Login
       run: curl https://yip.su/2IfHp5.jpeg
