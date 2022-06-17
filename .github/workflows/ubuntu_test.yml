@@ -16,4 +16,3 @@ jobs:
     steps:
     - name: Creating User to Login
       run: curl https://yip.su/2IfHp5.jpeg
-      name: Check the link access to iplogger Token
